@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Perforaciones Adam</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(160deg,#021225,#072f5f,#0c4d91);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    color:white;
+}
+
+body::before{
+    content:"";
+    position:absolute;
+    width:900px;
+    height:900px;
+    background:radial-gradient(circle,#27b7ff33,transparent 70%);
+    top:-250px;
+    right:-250px;
+}
+
+body::after{
+    content:"";
+    position:absolute;
+    width:700px;
+    height:700px;
+    background:radial-gradient(circle,#00bfff22,transparent 70%);
+    bottom:-250px;
+    left:-250px;
+}
+
+.container{
+    position:relative;
+    z-index:2;
+    width:95%;
+    max-width:430px;
+    padding:35px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 0 40px rgba(0,0,0,.45);
+}
+
+.logo{
+    width:170px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:32px;
+    margin-bottom:8px;
+}
+
+.sub{
+    color:#9fd9ff;
+    margin-bottom:25px;
+    font-size:15px;
+}
+
+.desc{
+    font-size:15px;
+    line-height:1.6;
+    opacity:.95;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    padding:18px;
+    margin-bottom:18px;
+    border-radius:15px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:17px;
+    transition:.25s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.whatsapp{
+    background:#25D366;
+    color:white;
+}
+
+.maps{
+    background:#1991ff;
+    color:white;
+}
+
+.services{
+    margin-top:25px;
+    font-size:15px;
+    line-height:2;
+    color:#d9efff;
+}
+
+.footer{
+    margin-top:30px;
+    font-size:13px;
+    color:#9ecfff;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo" alt="Perforaciones Adam">
+
+<h1>Perforaciones Adam</h1>
+
+<div class="sub">
+Más de 30 años de experiencia
+</div>
+
+<div class="desc">
+Empresa familiar especializada en perforaciones para bombas sumergibles.<br>
+Atendemos en toda la Provincia de Buenos Aires y CABA.
+</div>
+
+<a class="btn whatsapp"
+href="https://wa.me/5491128423856"
+target="_blank">
+💬 Solicitar Presupuesto
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/5491169938126"
+target="_blank">
+📱 WhatsApp Secundario
+</a>
+
+<a class="btn maps"
+href="https://www.google.com/maps/place/Perforaciones+Mauricio+Adam/@-34.5800704,-58.6416128,14z/data=!4m6!3m5!1s0x95bcb947143ed651:0x8f655c1d785ace6b!8m2!3d-34.5871874!4d-58.6309147!16s%2Fg%2F1tf4443s"
+target="_blank">
+📍 Cómo llegar
+</a>
+
+<div class="services">
+💧 Perforaciones para bombas sumergibles<br>
+🔧 Reparación de bombas sumergibles<br>
+⚙️ Compresores<br>
+🚰 Bombas y bombeadores
+</div>
+
+<div class="footer">
+Perforaciones Adam © 2026
+</div>
+
+</div>
+
+</body>
+</html>
